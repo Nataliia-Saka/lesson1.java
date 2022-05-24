@@ -1,46 +1,46 @@
 package ru.geekbrains.courses.java.saka.lesson1;
 
 public class HomeWorkApp {
-    public static void main(String[] args) { //Задание 6
+    public static void main(String[] args) { //Р—Р°РґР°РЅРёРµ 6
      printThreeWords();
      checkSumSign();
      printColor();
      compareNumbers();
     }
 
-    // Задание 2
+    // Р—Р°РґР°РЅРёРµ 2
     public static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
 
-    // Задание 3
+    // Р—Р°РґР°РЅРёРµ 3
     public static void checkSumSign() {
         int a = -5;
         int b = 2;
        if (a + b >= 0) {
-           System.out.println("Сумма положительная");
+           System.out.println("РЎСѓРјРјР° РїРѕР»РѕР¶РёС‚РµР»СЊРЅР°СЏ");
        } else {
-           System.out.println("Сумма отрицательная");
+           System.out.println("РЎСѓРјРјР° РѕС‚СЂРёС†Р°С‚РµР»СЊРЅР°СЏ");
        }
 
     }
 
-    // Задание 4
+    // Р—Р°РґР°РЅРёРµ 4
     public static void printColor() {
         int value = 103;
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("РљСЂР°СЃРЅС‹Р№");
         } else if (value != 0 && value > 0 && value <100) {
-            System.out.println("Желтый");
+            System.out.println("Р–РµР»С‚С‹Р№");
         } else  {
-            System.out.println("Зеленый");
+            System.out.println("Р—РµР»РµРЅС‹Р№");
         }
 
     }
 
-    //Задание 5
+    //Р—Р°РґР°РЅРёРµ 5
     public static void compareNumbers() {
         int a = 10;
         int b = 100;
